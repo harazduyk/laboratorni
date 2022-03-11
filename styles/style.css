@@ -1,0 +1,281 @@
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  background-color: #BEB6B698;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding: 5% 15%;
+}
+
+.page {
+  width: 60%;
+  background-color: white;
+  padding: 3% 5%;
+}
+
+.page__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid #5D5A5A5F;
+}
+
+.page__title img {
+  width: 25%;
+  margin-bottom: 3%;
+}
+
+.page__title_text {
+  margin-left: 4%;
+}
+
+.page__title_text h1 {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 3%;
+}
+
+.page__title_text h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: -5%;
+}
+
+.page__title_text_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+.page__title_text_line_icon {
+  width: 50%;
+  display: inline-block;
+}
+
+.page__title_text_line_icon a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #231f20;
+  margin-top: 2%;
+}
+
+.page__title_text_line_icon a img {
+  width: 15%;
+  height: 35px;
+  margin: 0% 2%;
+}
+
+.page__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page__information h2 {
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin: 2% 0 4% 0;
+}
+
+.page__information h5 {
+  font-size: 16px;
+}
+
+.page__information p span {
+  font-weight: 200;
+}
+
+.page__information_left {
+  width: 245%;
+}
+
+.page__information_left h2 {
+  margin: 12% 0 5% 0;
+}
+
+.page__information_left p {
+  margin-top: -2%;
+}
+
+.page__information_left_education {
+  border-bottom: 2px solid #5D5A5A5F;
+}
+
+.page__information_left_skills {
+  border-bottom: 2px solid #5D5A5A5F;
+}
+
+.page__information_left_skills li {
+  margin: 1% 0%;
+}
+
+.page__information_right {
+  border-left: 2px solid #5D5A5A5F;
+  padding-left: 3%;
+  margin-top: 2%;
+}
+
+.page__information_right_profile {
+  border-bottom: 2px solid #5D5A5A5F;
+  margin-bottom: 2%;
+}
+
+.page__information_right h1 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin: 5% 0 6% 0;
+}
+
+.page__information_right h2 {
+  font-size: 20px;
+}
+
+.page__information_right_work ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.page__information_right_work li:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}
+
+.page__information_right_work li {
+  margin: 1% 0;
+}
+
+.page__information_right_work li a {
+  color: #231f20;
+  text-decoration: none;
+}
+
+.page__information_right_work li a:hover {
+  background-color: #575555D0;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.page__information_right_work p span {
+  font-weight: 600;
+}
+
+.main .page nav {
+  border-bottom: 2px solid #5D5A5A5F;
+  margin-bottom: 3%;
+}
+
+.main .page nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main .page nav ul li {
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.main .page nav ul li a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #231f20;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .page nav ul li a:hover {
+  text-decoration: none;
+  background-color: #575555D0;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.job {
+  width: 60%;
+  font-family: "Times New Roman", sans-serif;
+  border: 2px solid #66676CCD;
+  margin: 2% auto 0 auto;
+  padding: 2%;
+}
+
+.job img {
+  width: 100%;
+}
+
+.job p {
+  font-size: 22px;
+  margin-top: 1%;
+}
+
+.job h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+article {
+  margin: 2%;
+}
+
+article figure {
+  width: 70%;
+  border: 3px solid black;
+  margin-left: 1%;
+  padding: 5px;
+}
+
+article figure img {
+  width: 100%;
+}
+
+article h1 {
+  color: green;
+}
+
+article .autor {
+  color: white;
+  background-color: red;
+}
+
+.menu {
+  margin: 2%;
+}
+
+.menu ul {
+  width: 200px;
+}
+
+.menu ul li {
+  border-bottom: 1px solid MediumVioletRed;
+  padding: 6px 20px;
+  background-color: PaleVioletRed;
+  list-style: none;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul li:hover {
+  background-color: #c04d73;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
