@@ -1,0 +1,45 @@
+div {
+    width: 200px;
+    height: 70px;
+    border: 5px solid black;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.red-battery::before,
+.yellow-battery::before,
+.green-battery::before {
+    content: "";
+    display: block;
+    height: inherit;
+    position: absolute;
+    float: left;
+}
+
+.red-battery::before {
+    width: 50px;
+    background-color: red;
+}
+
+.yellow-battery::before {
+    width: 120px;
+    background-color: yellow;
+}
+
+.green-battery::before {
+    width: 200.5px;
+    height: 70.5px;
+    background-color: green;
+}
+
+div:after {
+    content: "";
+    display: block;
+    height: inherit;
+    background-color: black;
+    width: 10px;
+    position: absolute;
+    margin-left: 201px;
+    height: 25px;
+    margin-top: 20px;
+}

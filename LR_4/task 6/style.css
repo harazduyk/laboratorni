@@ -1,0 +1,7 @@
+   h1 {
+       font-size: 36px;
+       border-right: 400px solid black;
+       border-left: 400px solid black;
+       line-height: 5px;
+       display: inline-block;
+   }
