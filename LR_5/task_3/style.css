@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid #000;
+}
+
+.fullwrap {
+  position: relative;
+  width: 50%;
+  height: 700px;
+  left: 25%;
+  top: 15px;
+  padding: 15px;
+}
+
+.header {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.wrap {
+  height: 400px;
+  padding: 15px;
+}
+
+.main, .sidebar {
+  height: 100%;
+  display: inline-block;
+}
+
+.main {
+  min-width: 65%;
+  margin-right: 4%;
+}
+
+.sidebar {
+  min-width: 30%;
+}
+
+.footer {
+  min-height: 130px;
+  margin-top: 15px;
+}
