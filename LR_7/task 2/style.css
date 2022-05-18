@@ -1,0 +1,38 @@
+a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+}
+
+.bg-free_icon_android_174836 {
+    background: url('images/css_sprites.png') -10px -10px;
+}
+
+.bg-free_icon_facebook_174848 {
+    background: url('images/css_sprites.png') -80px -10px;
+}
+
+.bg-free_icon_html_5_174854 {
+    background: url('images/css_sprites.png') -10px -80px;
+}
+
+.bg-free_icon_instagram_174855 {
+    background: url('images/css_sprites.png') -80px -80px;
+}
+
+.bg-free_icon_soundcloud_174871 {
+    background: url('images/css_sprites.png') -150px -10px;
+}
+
+.bg-free_icon_twitter_174876 {
+    background: url('images/css_sprites.png') -150px -80px;
+}
+
+.bg-free_icon_youtube_174883 {
+    background: url('images/css_sprites.png') -10px -150px;
+}
+
+.icon {
+    text-align: center;
+}

@@ -1,0 +1,217 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+body {
+    background-image: url('../img/bg.png');
+    background-color: #383838;
+}
+
+a {
+    text-decoration: none;
+    color:#e4e4e4;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #e4e4e4;
+}
+
+.button {
+    text-align: center;
+    color: #e4e4e4;
+    background: linear-gradient(145deg, #dd0000, #ff3670);
+    font-size: 16px;
+}
+
+/* Header */
+#topbar {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+header {
+    background-image: url('../img/bg-01.jpg');
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    line-height: 3;   
+}
+
+.menu li {
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 100px;
+    text-align: center;
+    padding: 90px 0 60px;
+}
+
+header .button {
+    width: 290px;
+    margin: auto;
+    display: block;
+    padding: 15px 0;
+}
+
+/* Tour */
+#tour {
+    padding: 40px 0 0 0;
+}
+
+#tour h2 {
+    text-align: center;
+    font-size: 38px;
+    padding-bottom: 40px;
+}
+
+.tour-card {
+    box-sizing: border-box;
+    float: left;
+    width: 200px;
+    height: 220px;
+    margin: 0 10px;
+    padding: 40px 10px;
+}
+
+.madrid {
+    background: linear-gradient( rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/tour/madrid.jpg');
+    margin-left: 50px;   
+}
+
+.turin {
+    background: linear-gradient( rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/tour/turin.jpg');
+}
+
+.hamburg {
+    background: linear-gradient( rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/tour/hamburg.jpg');
+}
+
+.krakow {
+    background: linear-gradient( rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/tour/krakow.jpg');
+}
+
+.tour-card .button {
+    padding: 12px 0;
+    display: block;
+    margin: auto;
+    width: 145px;
+}
+
+.tour-place, .tour-date {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.tour-place {
+    padding: 10px 0;
+}
+
+.tour-date {
+    padding-bottom: 20px;
+}
+
+/* Gallery */
+#gallery h2 {
+    text-align: center;
+    font-size: 38px;
+    padding: 40px 0;
+    clear: both;
+}
+
+.photo {
+    float: left;
+    margin: 10px;
+}
+
+.photo:nth-child(3n) {
+    clear: right;
+}
+
+.photo:last-child {
+    margin-bottom: 35px;
+}
+
+#gallery {
+    clear: left;
+}
+
+/* Subscribe */
+#subscribe {
+    clear: both;
+    height: 290px;
+    background: linear-gradient( rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/bg-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#subscribe h2 {
+    text-align: center;
+    font-size: 38px;
+    padding: 60px 0 35px;
+}
+
+#subscribe p {
+    text-align: center;
+}
+
+.subscribe-form {
+    margin: 25px auto 0;
+}
+
+.subscribe-form input {
+    width: 210px;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.subscribe-form button {
+    width: 125px;
+    padding: 10px;
+    text-align: center;
+    color: #e4e4e4;
+    background: linear-gradient(145deg, #dd0000, #ff3670);
+    font-size: 16px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-image: url('../img/bg.png');
+    background-color: #222222;
+}
+
+.social {
+    text-align: center;
+    padding: 25px 0 20px; 
+}
+
+.social a {
+    padding-right: 6px;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
