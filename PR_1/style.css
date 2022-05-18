@@ -1,0 +1,189 @@
+/* Style reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* General */
+body {
+    font-family: Raleway;
+}
+
+.wraper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 240px;
+}
+
+/* Header */
+nav {
+    height: 95px;
+    padding-top: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    color: #59abe3;
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #aaaaaa;
+}
+
+/* Content */
+.jumbotron {
+    height: 410px;
+    background-image: url('img/jumbotron.jpg');
+    background-size: cover;
+    margin: 0 -240px;
+    padding-top: 115px;
+}
+
+.jumbotron-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    margin-bottom: 65px;
+}
+
+.jumbotron-btn {
+    display: block;
+    width: 240px;
+    height: 60px;
+    background-color: #fa5ba5;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 3.3;
+}
+
+.services {
+    padding-top: 80px;
+}
+
+.section-title {
+    color: #282828;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-row {
+    display: flex;
+    margin-top: 60px;
+}
+
+.section-column {
+    width: 270px;
+    text-align: center;
+    margin: 0 30px;
+    color: #979797;
+}
+
+.section-column i {
+    font-size: 50px;
+}
+
+.section-column p {
+    font-size: 13px;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.blog {
+    padding-top: 150px;
+}
+
+.blog h2 {
+    padding-bottom: 55px;
+}
+
+.post {
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.post:last-child {
+    margin-bottom: 50px;
+}
+
+.post-image {
+    float: left;
+    margin-right: 30px;
+}
+
+.post-content {
+    padding-top: 30px;
+}
+
+.post-content h3 {
+    font-size: 24px;
+}
+
+.post-date {
+    display: block;
+    padding: 40px 0 25px;
+}
+
+.post-date, .post-text {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer {
+    height: 245px;
+    background-color: #38404b;
+    margin: 0 -240px;
+    padding-top: 60px;
+}
+
+footer .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer .menu {
+    width: 280px;
+    margin: 0 auto;
+}
+
+footer .logo, footer .menu li a {
+    color: #b9c7db;
+}
+
+.copyright {
+    text-align: center;
+    color: #cacbcd;
+    font-size: 12px;
+    margin-top: 30px;
+}
