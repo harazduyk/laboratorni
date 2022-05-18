@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-box h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  line-height: .75;
+}
+
+.header-description  span {
+  color: #f5c539;
+}
+
+.menu-iteam span {
+  color: grey;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right-side h2 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.background-gradient {
+  width: 1050px;
+  height: 530px;
+  margin: 5% auto;
+  background: linear-gradient(152deg, rgba(37,30,32,1) 0%, rgba(68,56,54,1) 100%);
+  padding: 25px 60px 40px 50px;
+}
+
+.main {
+  width: 940px;
+  height: 390px;
+}
+
+.left-side {
+  position: relative;
+  width: 330px;
+  height: inherit;
+  background-image: url('burger.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.header-box {
+  position: absolute;
+  width: 340px;
+  height: 213px;
+  bottom: 25px;
+  left: -15px;
+  background-color: #000;
+  padding-top: 50px;
+  color: #FFF;
+}
+
+.header-description {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.right-side {
+  width: 610px;
+  height: inherit;
+  background-color: #FFF;
+  float: right;
+}
+
+.menu {
+  list-style: none;
+  margin: 50px 90px 40px 70px;
+}
+
+.menu-iteam {
+  position: relative;
+  float: left;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.menu-iteam:nth-child(2n) {
+  margin-left: 50px;
+}
+
+.menu-iteam::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #d5d5d5;
+  transform: rotate(45deg);
+  bottom: -5px;
+  left: 95px;
+}
+
+.menu-btn {
+  float: right;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  width: 177px;
+  height: 55px;
+  color: #FFF;
+  background-color: #000;
+  line-height: 3.8;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s background-color 0.2s;
+  transition: transform 0.2s;
+}
+
+.menu-btn:active {
+  color: #000;
+  background-color: #FFF;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
+}
