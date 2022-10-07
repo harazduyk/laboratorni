@@ -1,11 +1,17 @@
-.menu {
-    list-style: none;
+#laboratory {
+    display: flex;
+    margin-left: 20%;
 }
 
-.menu a,
+
+.task {
+    list-style: none;
+    width: 30%;
+}
+
+.task a,
 .lr {
     display: block;
-    width: 30%;
     min-height: 60px;
     line-height: 60px;
     text-align: center;
@@ -24,6 +30,6 @@
     margin-top: 30px;
 }
 
-.menu a:hover {
+.task a:hover {
     background: #6b4281;
 }
