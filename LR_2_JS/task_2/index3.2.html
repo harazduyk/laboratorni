@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.2</title>
+</head>
+
+<body>
+
+    <button onclick="openImg()">Кнопка</button>
+
+    <style>
+        button {
+            width: 151px;
+            height: 38px;
+            border: 1px solid #000000;
+            background-color: rgb(242, 242, 242);
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            font-family: "Dosis";
+            color: #242929;
+            text-transform: uppercase;
+            margin: 19% auto 0 auto;
+            display: block;
+        }
+
+        button:hover {
+            background-color: rgb(12, 82, 234);
+        }
+    </style>
+
+    <script>
+        function openImg() {
+            let questOnOpenWin = confirm("Відкрити інший документ?")
+            questOnOpenWin ? window.open('./car.html') : window.close()
+        }
+    </script>
+
+</body>
+
+</html>

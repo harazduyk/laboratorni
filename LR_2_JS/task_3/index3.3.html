@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3.3</title>
+</head>
+
+<body>
+
+    <div>
+        <a href="#" onMouseOver="document.myImage1.src='./img/1,1.jpg'"
+            onMouseOut="document.myImage1.src='./img/1.jpg'">
+            <img src="./img/1.jpg" name="myImage1" width="300" height=" 160">
+        </a>
+        <a href="#" onMouseOver="document.myImage2.src='img/2,2.jpg'"
+            onMouseOut="document.myImage2.src='img/2.jpg'">
+            <img src="img/2.jpg" name="myImage2" width="300" height=" 160">
+        </a>
+        <a href="#" onMouseOver="document.myImage3.src='img/3,3.png'"
+            onMouseOut="document.myImage3.src='img/3.jpg'">
+            <img src="img/3.jpg" name="myImage3" width="300" height=" 160">
+        </a>
+    </div>
+
+    <style>
+        div {
+            width: 1000px;
+            margin: 15% auto 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+
+</body>
+
+</html>
