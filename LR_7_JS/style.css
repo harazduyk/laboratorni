@@ -1,0 +1,34 @@
+#laboratory {
+    display: flex;
+    margin-left: 30%;
+}
+
+.task {
+    list-style: none;
+    width: 40%;
+}
+
+.task a,
+.lr {
+    display: block;
+    min-height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: #af8cc7;
+    font-size: 30px;
+    border: 1px solid #a07ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 3px auto 5px auto;
+}
+
+.lr {
+    background-color: #9067a8;
+    margin-top: 30px;
+}
+
+.task a:hover {
+    background: #6b4281;
+}
