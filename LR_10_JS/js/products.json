@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"title": "Монополія",
+		"itemsInBox": 6,
+		"price": 300,
+		"imgSrc": "monopoly.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Ерудит",
+		"itemsInBox": 6,
+		"price": 350,
+		"imgSrc": "erydits.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Зрозумій мене",
+		"itemsInBox": 6,
+		"price": 450,
+		"imgSrc": "zrozymi.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Подорожуємо Україною",
+		"itemsInBox": 6,
+		"price": 400,
+		"imgSrc": "ukraine.jpeg"
+	}
+]
